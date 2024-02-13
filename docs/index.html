@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To do list</title>
+    <title>Verðlisti</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,11 +12,13 @@
 </head>
 <body class="container">
     <header class="logo">
-        <h1>To do list</h1>
+        <h1>Verðlisti</h1>
     </header>
     <div class="main">
+        <p id="totalPrice">Total Price: 0kr</p>
         <form>
-            <input type="text" placeholder="New task">
+            <input type="text" placeholder="Ný vara">
+            <input type="number" placeholder="Price">
             <button type="submit"><i class="fas fa-plus-square"></i></button>
         </form>
         <div class="todoList">
@@ -26,6 +28,6 @@
             <a class="clearAll" id="clearAll">Clear All</a>
         </div>
     </div>
-    <script src="app.js"></script>
+    <script src="D:/js/app.js"></script>
 </body>
 </html>
