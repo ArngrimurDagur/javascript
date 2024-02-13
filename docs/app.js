@@ -6,10 +6,9 @@ function handleSubmitForm(e) {
     e.preventDefault();
     let input = document.querySelector("input");
     if (input.value != "")
-        addTodoItem(input.value);
+        addTodo(input.value);  // Changed from addTodoItem to addTodo
     input.value = "";
 }
-
 
 // Helpers
 function addTodo(todo) {
